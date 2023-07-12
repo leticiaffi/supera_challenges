@@ -1,7 +1,3 @@
 ## How to Run
 
-To execute each exercise, enter it's corresponding folder and run the following command:
-
-```bash
-javac Solution1.java
-```
+To execute each exercise, enter it's corresponding folder and run the the `main` method on it's class.
