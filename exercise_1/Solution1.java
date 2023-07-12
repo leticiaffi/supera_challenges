@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
-public class Solution {
+public class Solution1 {
 
     public static void main(String[] args) {
         System.out.println("Please enter the input: ");
-        final Solution solution = new Solution();
+        final Solution1 solution = new Solution1();
         final List<Integer> inputList = solution.readInput();
 
         System.out.println("\nSolution: ");
@@ -61,7 +61,7 @@ public class Solution {
             return scanner.nextInt();
         } catch (InputMismatchException ex) {
             System.out.println("Input is not an integer, please input an valid integer");
-            return nextInt(scanner);
+            throw ex;
         }
     }
 
